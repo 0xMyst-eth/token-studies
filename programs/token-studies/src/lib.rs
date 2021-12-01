@@ -30,7 +30,7 @@ pub mod token_studies {
     }
 }
 
-/
+
 #[derive(Accounts)]
 #[instruction(mint_bump: u8)]
 pub struct MintToken<'info> {
