@@ -59,7 +59,7 @@ describe('token-studies', () => {
   }
 
   async function getAtaInfos(accountId: anchor.web3.PublicKey){
-    // let data = await provider.connection.getBalance(accountId);
+    let data = await provider.connection.getBalance(accountId);
     
     return data;
   }
